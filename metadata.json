@@ -1,0 +1,8 @@
+{
+  "name": "LexmarCorp IQ - Sistema de Gestión y Auditoría Jurídica",
+  "description": "Plataforma integral para despachos jurídicos: gestión de expedientes, biblioteca de plantillas automatizadas con IA, exportación ejecutiva a PDF con jsPDF y auditoría legal inteligente.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
