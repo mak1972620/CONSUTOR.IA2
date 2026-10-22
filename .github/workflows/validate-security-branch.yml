@@ -24,3 +24,5 @@ jobs:
         run: npm run lint
       - name: Build frontend
         run: npm run build
+      - name: Runtime authentication and data-access smoke tests
+        run: npm run test:security
