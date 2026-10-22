@@ -6,7 +6,8 @@
     "dev": "tsx server.ts",
     "build": "vite build",
     "start": "node server.ts",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "test:security": "node scripts/security-smoke.mjs"
   },
   "dependencies": {
     "@google/genai": "^1.44.0",
