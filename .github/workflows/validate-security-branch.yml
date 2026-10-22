@@ -19,7 +19,7 @@ jobs:
           node-version: 22
           cache: npm
       - name: Install dependencies
-        run: npm ci
+        run: npm install
       - name: TypeScript check (current configured scope)
         run: npm run lint
       - name: Build frontend
