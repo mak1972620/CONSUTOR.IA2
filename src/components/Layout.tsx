@@ -39,7 +39,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
     { label: 'Diligencias / Tareas', path: '/tasks', icon: CheckSquare },
     { label: 'Finanzas & Pagos', path: '/payments', icon: DollarSign },
     ...(user?.role === 'admin'
-      ? [{ label: 'Auditoría & Usuarios', path: '/audit', icon: Shield }]
+      ? [{ label: 'Auditoría & Usuarios', path: '/admin', icon: Shield }]
       : [])
   ];
 
